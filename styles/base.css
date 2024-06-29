@@ -183,7 +183,7 @@ footer.dark-mode {
     font-size: 1.5rem;
     border: 0;
     background: none;
-    color: #fff;
+    color: #f3e9e9;
     cursor: pointer;
     display: flex;
     position: absolute;
@@ -276,3 +276,53 @@ nav a.active {
     color: #072a40;
     background-color: #089a2a;
 }
+ 
+ 
+.hero {
+    margin-top: 2rem;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1/3;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.herolabel {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: linear-gradient(#fff, #089a2a);
+    border: 1px solid black;
+    padding: 0.5rem;
+    opacity: 0.8;
+}
+
+.herolabel p {
+    margin: 0;
+    font-weight: 600;
+    font-size: 0.65rem;
+} 
+
+iframe {
+    height: 900px;
+    width: 1500px;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 4%;
+    border: none; 
+}
+
+@media (max-width: 768px) {
+    iframe {
+        width: 250px; 
+        height: 200px;
+        margin-right: 10%;
+        margin-left: 10%;
+    } 
+    
+} 
+

@@ -8,8 +8,8 @@
     <meta name="author" content="bunmi osadare"> 
     <meta property="og:title" content="Home Page">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://osadare.github.io/wdd230">
-    <meta property="og:image" content="images/Ibadan1.jpg">
+    <meta property="og:url" content="https://osadare.github.io/wdd230"> 
+    <meta property="og:image" content="https://osadare.github.io/wdd230/images/Ibadan1.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
@@ -22,20 +22,30 @@
     <div class="container">
         <header>
             <div class="header_content">
-                <img class="profile_pic" src="images/profile.jpg" alt="Profile Picture">
+                <img class="profile_pic" src="images/profile.webp" alt="Profile Picture">
                 <h1>Bunmi Osadare</h1>
                 <button id="hamburger"></button>
                 <button id="dark-mode-toggle" class="dark-mode-button">🟢</button>
         </header>
         <nav id="nav-menu">
             <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Chamber</a></li>
-                <li><a href="#">Site Plan</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="chamber/index.html">Chamber</a></li>
+                <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
                 <li><a href="#">Form</a></li>
             </ul>
         </nav>
-        <main>
+        <main> 
+            <div class="hero">
+                <picture>
+                    <source srcset="images/hero-small.webp" media="(max-width: 400px)">
+                    <source srcset="images/hero-large.webp" media="(max-width: 960px)">
+                    <img src="images/hero-large.webp" alt="durban_south_africa_temple">
+                </picture>
+                <div class="herolabel">
+                    <p>durban_south_africa_temple</p>
+            </div>
+                 
             <h1>WDD 230: Web Frontend Development</h1>
             <div class="main_content">
                 <section class="learning_activities">
@@ -43,26 +53,32 @@
                     <ul>
                 <li>Week 1: <a href="week01/holygrail.html">Holy Grail</a> | <a href="week01/media-query.html">Media Query</a> | <a href="week01/chamber-site-plan.html">Chamber Site Plan</a></li>
                 <li>Week 2:<a href="week02/design.html">Design</a> | <a href="https://codepen.io/Bunmi_O/pen/dyEmaod">Hamburger Menu</a> | <a href="week02/bom.html">Book of Mormon </a></li>
-                <li>Week 03: (<a href="week03/example1.html">W03</a>) </li>
+                <li>Week 3:<a href="week03/images/landscape.webp">WebP</a> | <a href="week03/lazyload.html">LazyLoading</a> | <a href="week03/responsive-images.html">Responsive Images</a> | <a href="week03/bom.html">local storage</a>
                 <li>Week 04: (<a href="week04/example1.html"> W04</a>) </li> 
                 <li>Week 05: (<a href="week05/example1.html">W05</a>) </li>
-                <li>Week 06: (<a href="week06/example1.html"> W06</a>) </li> 
+                
             </ul>
         </section>
         <section class="information">
             <h2>Information</h2> 
             <p>Ibadan,Nigeria</p>
             <p>Weather: Sunny 60F</p>
-            <p> Page Visits: 150</p>
-        </section> 
+            
+        </section>  
+        <p id="pageVisits"></p>
     </div>
-    </main>
+    </main> 
+     
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7913.367266990501!2d3.876711207125132!3d7.389303849454151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1719479674021!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+ 
+
     <footer>
         <p>&copy; <span id="currentYear"></span> | bunmi osadare | Ibadan ,Nigeria.</p>
         <p id="lastModified"></p>
     </footer>
     <script src="scripts/getDates.js"></script> 
     <script src="scripts/hamburger.js"></script>
-    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/darkmode.js"></script> 
+    <script src="scripts/page-visits.js"></script>
 </body>
 </html>

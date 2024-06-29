@@ -1,0 +1,121 @@
+.main {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+}
+
+.current-events, .weather-card {
+    background-color: #f0f0f0; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+}
+
+.current-events h3, .weather-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.event {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.company-spotlights h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.company-spotlights {
+    background-color: #f0f0f0; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+}
+
+.spotlight-container { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.spotlight {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.spotlight img {
+    max-width: 100%;
+    height: auto;
+}
+.discover2 img {
+    border: 10px solid #454444;
+    width: 60%;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+.discover2 img {
+    border: 10px solid #454444;
+    width: 20%;
+}
+ 
+.images {
+    display: grid;
+    place-items: center; 
+    animation: myanimation 15s; 
+    
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .images {
+        grid-template-columns: 1fr;
+        grid-gap: 10px; 
+        
+    }
+}
+
+
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.sidebar section {
+    background-color: #e8ebee;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #222544;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
