@@ -199,4 +199,133 @@ footer p {
     .nav-links.active {
         display: flex;
     }
+} 
+
+  
+
+
+/* Join Page */ 
+.joinpage {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto 5rem; /* Added margin-top of 10rem */
+  }
+
+.joinmessage {
+  color: #089a2a;
+  font-size: 5rem;
+  margin-top: 2rem; 
+  text-align: center;
+}
+
+.wf1 fieldset {
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+  min-width: 375px;
+  max-width: 600px;
+}
+
+.wf1 legend {
+  color: #089a2a;
+  padding: 0 .5rem;
+}
+
+.wf1 label {
+  display: block;
+  padding-top: 1rem;
+  color: var(--secondary-color);
+  font-size: .9rem;
+}
+
+.wf1 input[type="text"],
+.wf1 input[type="password"],
+.wf1 input[type="email"],
+.wf1 input[type="tel"],
+.wf1 textarea {
+  background-color: #eee;
+  display: block;
+  border: solid 1px grey;
+  border-radius: 6px;
+  padding: .75rem;
+  color: #555;
+  width: 90%;
+  min-width: 375px;
+  max-width: 575px;
+  appearance: none;
+}
+
+.wf1 select {
+  display: block;
+  border: solid 1px grey;
+  border-radius: 6px;
+  padding: .75rem;
+  width: 95%;
+  min-width: 400px;
+  max-width: 600px;
+  appearance: none;
+}
+
+#description {
+  padding-bottom: 3rem;
+}
+
+.wf1 input[type="submit"] {
+  border: none;
+  background-color: #089a2a;
+  color: #ffffff;
+  padding: 1rem;
+  border-radius: 6px;
+  width: 96%;
+  max-width: 400px;
+  box-shadow: 1px 1px 4px #838383;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+
+.wf1 input[type="submit"]:hover {
+  background-color: #089a2a;
+}
+
+.membership-benefits {
+  margin-top: 9em;
+  padding: 1em;
+  background: #089a2a;
+  border-radius: 5px;
+  text-align: center;
+  color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  appearance: none;
+}
+
+.membership-benefits h2 {
+  margin-top: 2rem;
+}
+
+.membership-benefits h3 {
+  padding-left: 1em;
+  list-style: disc;
+}
+
+.membership-benefits p {
+  margin-bottom: 0.5em;
+}
+
+/* Mobile Version */
+@media (max-width: 600px) {
+  .joinmessage {
+    font-size: 3rem;
+    margin-top: 0rem;
+  }
+
+  .wf1 input[type="submit"] {
+    padding: 0.8rem;
+    font-size: 1rem;
+  }
+
+  .membership-benefits {
+    margin-top: 4em;
+  }
 }
