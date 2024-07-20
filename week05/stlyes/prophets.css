@@ -1,0 +1,46 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: #ecede0;
+
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-size: 2.5em;
+}
+
+h2 {
+    font-family: 'sans-serif';
+}
+
+
+section {
+    /* border: 1px solid black; */
+    border: none;
+    width: 100%;
+    max-width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    background-color: #eaedca;
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin-bottom: 20px;
+} 
+
+
+@media screen and (min-width: 600px) {
+
+    #cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    }
+
+
+}

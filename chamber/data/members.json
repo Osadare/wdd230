@@ -1,0 +1,66 @@
+[ 
+
+    {
+      "name": "Bright Minds Education",
+      "address": "159 Scholar Dr, Cambridge, MA 02138",
+      "phone": "(617) 555-8765",
+      "website": "https://brightmindsedu.com",
+      "image": "bright_minds_logo.png",
+      "membership": "Platinum"
+     
+    },
+    {
+      "name": "Urban Green Spaces",
+      "address": "742 Nature Blvd, Portland, OR 97204",
+      "phone": "(503) 555-4321",
+      "website": "https://urbangreenspaces.com",
+      "image": "urban_green_spaces_logo.png",
+      "membership": "Gold"
+     
+    },
+    {
+      "name": "NextGen Robotics",
+      "address": "888 Innovation Way, Boston, MA 02215",
+      "phone": "(617) 555-0987",
+      "website": "https://nextgenrobotics.com",
+      "image": "nextgen_robotics_logo.png",
+      "membership": "Platinum"
+      
+    },
+    {
+      "name": "Pure Water Solutions",
+      "address": "678 Aqua Dr, Miami, FL 33101",
+      "phone": "(305) 555-1212",
+      "website": "https://purewatersolutions.com",
+      "image": "pure_water_logo.png",
+      "membership": "Silver"
+      
+    },
+    {
+      "name": "SecureTech",
+      "address": "432 Cyber St, Seattle, WA 98101",
+      "phone": "(206) 555-3434",
+      "website": "https://www.securetech.com",
+      "image": "securetech_logo.png",
+      "membership": "Platinum"
+      
+    },
+    {
+      "name": "Creative Ventures",
+      "address": "213 Imagination Ln, Los Angeles, CA 90001",
+      "phone": "(323) 555-8765",
+      "website": "https://creativeventures.com",
+      "image": "creative_ventures_logo.png",
+      "membership": "Gold"
+      
+    },
+    {
+      "name": "Wellness Retreats International",
+      "address": "987 Serenity Dr, Sedona, AZ 86336",
+      "phone": "(928) 555-6543",
+      "website": "https://wellnessretreats.com",
+      "image": "wellness_retreats_logo.png",
+      "membership": "Bronze"
+      
+    }
+  ]

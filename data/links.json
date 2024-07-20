@@ -1,0 +1,101 @@
+{
+    "weeks": [
+      {
+        "week": "Week 1",
+        "links": [
+          {
+            "title": "Holy Grail",
+            "url": "week01/holygrail.html"
+          },
+          {
+            "title": "Media Query",
+            "url": "week01/media-query.html"
+          },
+          {
+            "title": "Chamber Site Plan",
+            "url": "week01/chamber-site-plan.html"
+          }
+        ]
+      },
+      {
+        "week": "Week 2",
+        "links": [
+          {
+            "title": "Design",
+            "url": "week02/design.html"
+          },
+          {
+            "title": "Hamburger Menu",
+            "url": "https://codepen.io/Bunmi_O/pen/dyEmaod"
+          },
+          {
+            "title": "Book of Mormon",
+            "url": "week02/bom.html"
+          }
+        ]
+      },
+      {
+        "week": "Week 3",
+        "links": [
+          {
+            "title": "WebP",
+            "url": "week03/images/landscape.webp"
+          },
+          {
+            "title": "LazyLoading",
+            "url": "week03/lazyload.html"
+          },
+          {
+            "title": "Responsive Images",
+            "url": "week03/responsive-images.html"
+          },
+          {
+            "title": "local storage",
+            "url": "week03/bom.html"
+          }
+        ]
+      },
+      {
+        "week": "Week 4",
+        "links": [
+          {
+            "title": "Pseudo Classes",
+            "url": "https://codepen.io/Bunmi_O/pen/JjQPrxG"
+          },
+          {
+            "title": "Combinators",
+            "url": "Week04/images/combinators.png"
+          },
+          {
+            "title": "HTML Tables",
+            "url": "Week04/tablebuild.html"
+          },
+          {
+            "title": "HTML Forms",
+            "url": "Week04/form-start/index.html"
+          }
+        ]
+      },
+      {
+        "week": "Week 5",
+        "links": [
+          {
+            "title": "Pseudo Elements",
+            "url": "https://codepen.io/Bunmi_O/pen/ExBVoLy"
+          },
+          {
+            "title": "JSON",
+            "url": "week05/new-ward-members.json"
+          },
+          {
+            "title": "Fetch API",
+            "url": "week05/prophets.html"
+          },
+          {
+            "title": "Weather API",
+            "url": "week05/weather.html"
+          }
+        ]
+      }
+    ]
+  }

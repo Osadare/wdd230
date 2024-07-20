@@ -311,7 +311,37 @@ footer p {
 
 .membership-benefits p {
   margin-bottom: 0.5em;
+} 
+
+
+   
+.view-toggle button {
+  margin: 8px;
 }
+
+.view-toggle .active {
+  font-weight: bold; 
+}
+
+
+#weather-icon {
+  width: 3%;
+}
+
+#threeDayForecast {
+  width: 40%;
+  margin: auto;
+  padding: 10px;
+}
+
+div .forecast-item {
+  display: flex;
+}
+
+#member-container.list .member-card img {
+  display: none;
+} 
+
 
 /* Mobile Version */
 @media (max-width: 600px) {
