@@ -338,11 +338,6 @@ div .forecast-item {
   display: flex;
 }
 
-#member-container.list .member-card img {
-  display: none;
-} 
-
-
 /* Mobile Version */
 @media (max-width: 600px) {
   .joinmessage {
@@ -372,13 +367,13 @@ div .forecast-item {
   padding: 10px 20px;
   margin: 0 10px;
   border: none;
-  background-color: #6a1212;
+  background-color: #089a2a;
   color: white;
   cursor: pointer;
 }
 
 #toggleView button:hover {
-  background-color: #222544;
+  background-color: #089a2a;
 }
 
 
@@ -413,7 +408,7 @@ div .forecast-item {
 .list .member-info a {
   display: block;
   margin-top: 10px;
-  color: #6a1212;
+  color: #089a2a;
   text-decoration: none;
 }
 
@@ -451,7 +446,7 @@ div .forecast-item {
 .member-info a {
   display: inline-block;
   margin-top: 10px;
-  color: #6a1212;
+  color: #089a2a;
   text-decoration: none;
 }
 
