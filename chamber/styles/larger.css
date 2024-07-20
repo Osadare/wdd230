@@ -119,3 +119,83 @@
 
 
 
+ 
+
+
+
+#directory {
+    grid-column: 1 / 4; 
+}
+
+#directory.grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    gap: 20px;
+    font-size: medium;
+}
+
+.member img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.member-info {
+    padding: 15px;
+}
+
+.member-info h2 {
+    margin: 0 0 10px;
+}
+
+.member-info p {
+    margin: 5px 0;
+}
+
+.member-info a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #6a1212;
+    text-decoration: none;
+}
+
+.member-info a:hover {
+    text-decoration: underline;
+}
+
+#directory.list {
+    display: block;
+}
+
+
+.list .member img {
+    display: none; 
+}
+
+.list .member-info {
+    padding: 15px; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.list .member-info h2 {
+    margin-top: auto;
+    font-size: large;
+}
+
+.list .member-info p {
+    margin-bottom: 5px; 
+    text-align: center;
+}
+
+.list .member-info a {
+    display: block;
+    margin-top: 10px;
+    color: #6a1212;
+    text-decoration: none;
+    text-align: center;
+}
+
+.list .member-info a:hover {
+    text-decoration: underline;
+}
