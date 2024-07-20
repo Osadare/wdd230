@@ -33,8 +33,8 @@ function displayResults(data) {
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     weatherIcon.setAttribute('loading', 'lazy');
-    weatherIcon.setAttribute('width', '20');
-    weatherIcon.setAttribute('height', '20');
+    weatherIcon.setAttribute('width', '5');
+    weatherIcon.setAttribute('height', '5');
 
 
     span1.appendChild(weatherIcon);
