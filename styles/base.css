@@ -326,3 +326,11 @@ iframe {
     
 } 
 
+
+.information {
+    text-align: center;
+}
+
+.information div {
+    margin-bottom: 2rem;
+}
