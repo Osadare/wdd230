@@ -42,11 +42,11 @@ function displayWeather(data) {
 }
 
 function displayForecast(data) {
-    threeDayForecastElement.innerHTML = ''; 
+    threeDayForecastElement.innerHTML = ''; // Clear previous forecast data
 
     // Loop through the first three days of forecast data
     for (let i = 0; i < 3; i++) {
-        const dayData = data.list[i * 8]; 
+        const dayData = data.list[i * 8]; // Weather data for every 8th entry (3-hour intervals)
         const date = new Date(dayData.dt * 1000);
         const dayOfWeek = date.toLocaleDateString('en-US', { weekday: 'short' });
         const iconUrl = `https://openweathermap.org/img/w/${dayData.weather[0].icon}.png`;
@@ -72,6 +72,8 @@ function titleCase(str) {
     }).join(" ");
 }
 
+// Initial fetch and display of current weather
 fetchWeather();
 
+// Initial fetch and display of three-day forecast
 fetchAndDisplayWeather();
