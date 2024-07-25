@@ -314,7 +314,33 @@ iframe {
     margin-left: 10%;
     margin-bottom: 4%;
     border: none; 
+} 
+
+
+
+#rangeValue {
+    font-size: x-large;
 }
+
+.information {
+    text-align: center;
+}
+
+.information div {
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 768px) {
     iframe {
@@ -326,11 +352,3 @@ iframe {
     
 } 
 
-
-.information {
-    text-align: center;
-}
-
-.information div {
-    margin-bottom: 2rem;
-}
